@@ -1,0 +1,16 @@
+service:
+  name: aws-nodejs-typescript
+
+plugins:
+  - serverless-plugin-build-create-react-app
+
+custom:
+  build-create-react-app:
+    command: react-scripts-ts
+    params:
+      - --scripts-version
+      - react-scripts-ts
+
+provider:
+  name: aws
+  runtime: nodejs6.10

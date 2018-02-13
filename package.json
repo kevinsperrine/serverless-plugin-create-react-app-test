@@ -1,0 +1,29 @@
+{
+  "name": "serverless-build-create-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts-ts": "2.13.0",
+    "serverless-plugin-build-create-react-app":
+      "https://github.com/kevinsperrine/serverless-plugin-build-create-react-app.git#patch-1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build --scripts-version react-scripts-ts",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.22",
+    "@types/jest": "^22.1.2",
+    "@types/node": "^9.4.5",
+    "@types/react": "^16.0.37",
+    "@types/react-dom": "^16.0.4",
+    "serverless-webpack": "^4.0.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.7.1",
+    "webpack": "^3.6.0"
+  }
+}
